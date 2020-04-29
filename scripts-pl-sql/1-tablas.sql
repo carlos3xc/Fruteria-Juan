@@ -10,6 +10,7 @@ DROP TABLE LineasVenta;
 DROP TABLE Ventas;
 DROP TABLE Empleados;
 DROP TABLE Clientes;
+DROP TABLE Encargados;
 DROP TABLE Lotes;
 DROP TABLE Precios;
 DROP TABLE Productos;
@@ -109,16 +110,6 @@ ID_PRO NUMBER(6), FOREIGN KEY(ID_PRO) REFERENCES Productos ON DELETE CASCADE,
 ID_LC NUMBER(4), FOREIGN KEY(ID_LC) REFERENCES ListasCompra ON DELETE CASCADE,
 yaComprado CHAR(1) NOT NULL,
     CONSTRAINT yaComprado_Boolean CHECK(0 <= yaComprado AND yaComprado <= 1));/
-
-/**************************************
-TABLAS DE ORGANIZACIÓN DE HORARIOS
-***************************************/
-
-/*Borrado de Tablas (Orden Jerárquico)*/
-DROP TABLE Encargados;
-
-/*Definición de Tablas*/
-
 
 CREATE TABLE Encargados
 (ID_U NUMBER(6) PRIMARY KEY,
