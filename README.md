@@ -1,5 +1,5 @@
 # Fruteria-Juan
-Este proyecto está desarrollado en el contexto de la asignatura de Introducción a la  ([Ingeniería del Software y los Sistemas de Información II](https://www.us.es/estudiar/que-estudiar/oferta-de-grados/grado-en-ingenieria-informatica-ingenieria-del-software/2050047)) del [Grado en Ingeniería del Software](https://www.us.es/estudiar/que-estudiar/oferta-de-grados/grado-en-ingenieria-informatica-ingenieria-del-software)
+Este proyecto está desarrollado en el contexto de la asignatura de Introducción a la  [Ingeniería del Software y los Sistemas de Información II](https://www.us.es/estudiar/que-estudiar/oferta-de-grados/grado-en-ingenieria-informatica-ingenieria-del-software/2050047) del [Grado en Ingeniería del Software](https://www.us.es/estudiar/que-estudiar/oferta-de-grados/grado-en-ingenieria-informatica-ingenieria-del-software)
 
 ## Sobre el proyecto
 El proyecto consistirá en una aplicación web que cumpla los requistos establecidos en la documentación del proyecto
